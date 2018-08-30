@@ -15,10 +15,20 @@
                     <div class="card">
                     <div class="card-body">   
                         <div> 
-                        <h5 class="card-title">할일!!</h5>
-                        {{item.complete}}{{item.todo}}
-                            <p></p>
-                        <a href="#" class="btn btn-primary">Delete</a>
+                        
+                        
+                           
+
+<div class="card" style="width: 18rem;">
+
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+ 
+    <a href="#" class="btn btn-primary">{{item.complete}}{{item.todo}}</a>
+  </div>
+</div>
+
+                        <a href="#" class="btn btn-primary"><button>Delete</button></a>
                         </div>
                     </div>
                     </div>
